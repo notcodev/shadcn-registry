@@ -5,4 +5,5 @@ export default eslint({
   react: true,
   jsxA11y: true,
   next: true,
+  ignores: ['.source'],
 })
